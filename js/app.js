@@ -24,19 +24,19 @@ $(document).ready(function () {
     $('#projects-slider').owlCarousel({
         loop: true,
         nav: false,
-        items: 2,
-        dots: true,
+        items: 6,
+        dots: false,
         smartSpeed: 600,
         center: true,
         autoplay: true,
-        autoplayTimeout: 4000,
+        autoplayTimeout: 2000,
         responsive: {
             0: {
-                items: 1
+                items: 3
             },
             768: {
-                items: 2,
-                margin: 8,
+                items: 6,
+    
             }
         }
     })
